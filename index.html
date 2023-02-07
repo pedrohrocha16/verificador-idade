@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap" rel="stylesheet">  
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div id="ano-sex">
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="0"> 
+            </p>
+            <p>Sexo:
+                <input type="radio" name="sex" id="mascsex" checked>
+                <label for="mascsex">Masculino</label>
+                <input type="radio" name="sex" id="femsex">
+                <label for="femsex">Feminino</label>
+            </p>
+                <input type="button" id="verificar" value="Verificar">    
+        </div>
+        <div id="res">
+            O sistema detectou um homem adulto de 41 anos.
+        </div>
+        <div class="foto">
+            <img id="img" src="img\bebe-menina.jpg" alt="foto-criança">
+        </div>
+    </section>
+        <footer>
+            <p>&copy;Pedro H. Rocha 2023</p>
+        </footer>
+        <div id ="redes-sociais">   
+            <a href=https://www.instagram.com/pedrorochaducks target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/pedrohrocha16" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
