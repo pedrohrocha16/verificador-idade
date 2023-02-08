@@ -31,7 +31,7 @@ section {
 }
 #verificar {
     box-shadow: 1px 1px #b0ccf5;
-    margin-bottom: 1rem;
+    font-size: 14px;
 }
 #img {
     border-radius: 150px;
@@ -40,7 +40,7 @@ section {
 }
 #res {
     font-family: 'Noto Serif Khojki', serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
 }
@@ -52,10 +52,15 @@ footer {
 }
 #redes-sociais{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 @media (min-width: 320px){
     section {
         width: 255px;
+    }
+}
+@media (min-width: 768px){
+    #redes-sociais {
+        justify-content: center;
     }
 }
